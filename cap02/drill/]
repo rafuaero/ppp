@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main ()
+{
+    std::cout << "olar, tudo bem? \n esta é a newsletter do costacurta\n";
+    std::string nome;
+    std::cout << "qual o seu nome? ";
+    std::cin >> nome;
+    std::cout << "prezado " << nome << ",\n";
+    std::cout << "seje bem vindo \n";
+    return 0; 
+    }
