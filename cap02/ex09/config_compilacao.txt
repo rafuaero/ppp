@@ -4,5 +4,4 @@
                 "-Wextra",
                 "-Wconversion",
                 "-Wsign-conversion",
-                "-Werror",
                 "-std=c++20",
