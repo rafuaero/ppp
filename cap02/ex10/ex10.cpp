@@ -17,7 +17,13 @@ int main(){
 
     if (operacao == "+"){
         cout << "voce somou " << op01 << " com " << op02 << " e o resultado é : " << op01 + op02 << " \n";
-    }
+    } else if (operacao == "-") {
+        cout << "voce subtratiu " << op01 << " de " << op02 << " e o resultado é : " << op01 - op02 << " \n";
+    } else if (operacao == "*") {
+        cout << "voce multiplicou " << op01 << " por " << op02 << " e o resultado é : " << op01 * op02 << " \n";
+    } else if (operacao == "/") {
+        cout << "voce dividiu " << op01 << " por " << op02 << " e o resultado é : " << op01 / op02 << " \n";
+    } 
     return 0;
 }
 
