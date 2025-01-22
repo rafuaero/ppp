@@ -28,24 +28,23 @@ int main(){
         cout << "vc tem " << pennies << " pennie\n";
     } else {
         cout << "vc tem " << pennies << " pennies\n";
-    }
-    if (nickels <= 1){
+    } if (nickels <= 1){
         cout << "vc tem " << nickels << " nickel\n";
     } else {
         cout << "vc tem " << nickels << " nickels\n";
-    }if (dimes <= 1){
+    } if (dimes <= 1){
         cout << "vc tem " << dimes << " dime\n";
     } else {
         cout << "vc tem " << dimes << " dimes\n";
-    }if (quarters <= 1){
+    } if (quarters <= 1){
         cout << "vc tem " << quarters << " quarter\n";
     } else {
         cout << "vc tem " << quarters << " quarters\n";
-    }if (half <= 1){
+    } if (half <= 1){
         cout << "vc tem " << half << " half\n";
     } else {
         cout << "vc tem " << half << " halfs\n";
-    }if (dollar <= 1){
+    } if (dollar <= 1){
         cout << "vc tem " << dollar << " half\n";
     } else {
         cout << "vc tem " << dollar << " dollars\n";
